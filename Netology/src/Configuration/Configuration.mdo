@@ -100,6 +100,7 @@
   <catalogs>Catalog.Упаковки</catalogs>
   <catalogs>Catalog.Номенклатура</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
   <documents>Document.ЗаказПоставщику</documents>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.События</documents>
