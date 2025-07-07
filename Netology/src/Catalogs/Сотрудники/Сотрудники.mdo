@@ -353,6 +353,68 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <tabularSections uuid="7b7cf156-ce9c-48ee-91a9-129d71636516">
+    <producedTypes>
+      <objectType typeId="b6e86314-027f-4b79-88ea-4691f8e3255d" valueTypeId="16f3b3c0-d942-448e-9d22-734116c616d0"/>
+      <rowType typeId="1b0f5870-cf1e-4538-8538-21c27bf1bbc6" valueTypeId="e89f0799-24ad-4071-9f90-3f88fb2d376d"/>
+    </producedTypes>
+    <name>СоставСемьи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав семьи</value>
+    </synonym>
+    <attributes uuid="4d9f11b8-a420-407a-a3ad-f3d3130c247e">
+      <name>СтепеньРодства</name>
+      <synonym>
+        <key>ru</key>
+        <value>Степень родства</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b86a4361-e039-4fdd-a18d-20f48d0465c6">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d49db63e-26c5-4e59-b9a7-484f0baa8f10">
+      <name>Телефон</name>
+      <synonym>
+        <key>ru</key>
+        <value>Телефон</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="4d2cffb8-de36-49c2-80bc-e9c0a04eb4a1">
     <name>ФормаСписка</name>
     <synonym>
