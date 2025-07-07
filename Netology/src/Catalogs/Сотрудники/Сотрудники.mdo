@@ -353,6 +353,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="2c6a3dd6-e74f-4b57-9960-8f11b4b6db84">
+    <name>НомерБанковскойКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер банковской карты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="7b7cf156-ce9c-48ee-91a9-129d71636516">
     <producedTypes>
       <objectType typeId="b6e86314-027f-4b79-88ea-4691f8e3255d" valueTypeId="16f3b3c0-d942-448e-9d22-734116c616d0"/>
