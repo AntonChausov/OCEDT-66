@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9475aaf-d83d-4d1a-831f-e8175697dbb9">
+  <producedTypes>
+    <objectType typeId="004b704a-e9e3-4e79-b436-20e2649610ce" valueTypeId="04c86873-1bb5-4ca9-b65f-22c5ac04c987"/>
+    <refType typeId="80a87705-335d-43e8-98b4-51e5b0c39b32" valueTypeId="13e84169-e17c-4122-8ae2-32adfddd5ccf"/>
+    <selectionType typeId="0a24e281-a521-4098-9ab6-67e928a0346d" valueTypeId="aec0b440-15e5-4550-acfd-66940d9ab3d4"/>
+    <listType typeId="4d23582d-23f9-48c0-84b8-0bf6c8fae829" valueTypeId="6d63ff8b-c9f5-48d5-81c9-3440208e8dba"/>
+    <managerType typeId="54c2ba66-943e-4a44-9979-e91ef66214db" valueTypeId="99c08414-a047-4e04-a3a7-a35ce4c96eb1"/>
+  </producedTypes>
+  <name>Упаковки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Упаковки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Упаковки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Упаковки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Упаковка</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Упаковка</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Упаковки</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Упаковки</value>
+  </extendedListPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Упаковки.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="62bf6032-55a7-4e49-b5b8-9945183b2c26">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a46b91b1-8f5f-4297-af82-d4011befa788">
+  <producedTypes>
+    <objectType typeId="a27ea4db-a8a2-42ad-b90a-217b5bee5ecd" valueTypeId="83f0485a-e611-42f1-98b3-3f665eb8a013"/>
+    <managerType typeId="1d1a14b1-6db3-4e13-81e9-370d2ec86f73" valueTypeId="29dbefad-a66e-4ad8-9210-a2b2019d5b7a"/>
+  </producedTypes>
+  <name>УстановкаЦенПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установка цен продажи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.УстановкаЦенПродажи.Form.Форма</defaultForm>
+  <forms uuid="bef7827a-a737-49c2-8f5f-06d04196fd91">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28d5e0dc-c237-4bda-9211-73bc29b4ee2c">
+  <producedTypes>
+    <selectionType typeId="7776e434-096a-4164-8e16-ab734e082340" valueTypeId="fcb95a8a-898d-47d6-8dcf-dc19980648ac"/>
+    <listType typeId="82ac1c24-71f5-4442-bcc2-9ca03c83d136" valueTypeId="b6d9b569-d3ee-46a3-82b1-ad8c23bf5b1c"/>
+    <managerType typeId="076f2f31-3e7c-4df3-a104-187097fd7ba3" valueTypeId="dc8c5d5e-96a3-41eb-bf89-79adccd1b344"/>
+  </producedTypes>
+  <name>ДвижениеТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Движение товаров</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДвижениеТоваров.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПоступлениеТоваровИУслуг</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваровИУслуг</registeredDocuments>
+  <columns uuid="4d379026-d417-446f-94c1-21aadc278ab5">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.Контрагент</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="724304db-ec7a-40ed-9f8a-6d645d7ccc6c">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.ПоступлениеТоваровИУслуг.Attribute.СуммаДокумента</references>
+    <references>Document.РеализацияТоваровИУслуг.Attribute.СуммаДокумента</references>
+  </columns>
+  <forms uuid="34eddbea-ce92-406e-b87a-134c75970158">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="520a1dda-1907-47fd-925c-95e42f21b9b1">
+  <name>УправлениеИТФирмой</name>
+  <synonym>
+    <key>ru</key>
+    <value>УправлениеИТФирмой Ларина Е.А.</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="4cbc4199-3c71-4544-a2e6-3f75c701d06b"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="3f826fe9-88af-49a9-b050-a0faf286f1ef"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="a5e7fdd8-1078-4a93-a225-df1cce444bb6"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="214f8010-9f73-4897-82b3-4d01bef408a7"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="439df928-fd4d-407a-a0cb-c41d9538bff5"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="dd64d085-0158-4f4e-a9cc-32213cba3f5e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="502011e1-b32a-44e0-9a69-962a533d10d6"/>
+  <configurationExtensionCompatibilityMode>8.3.26</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
+  <version>1.0.0.2</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>ИТФирма для разработки программ</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>ИТФирма для разработки программ, основана в 2025 г.</value>
+  </detailedInformation>
+  <logo/>
+  <splash/>
+  <copyright>
+    <key>ru</key>
+    <value>Ларина Е.А.</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="de97e933-4078-4010-84ef-80db676313f1">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Справочники</subsystems>
+  <subsystems>Subsystem.Закупки</subsystems>
+  <subsystems>Subsystem.Продажи</subsystems>
+  <subsystems>Subsystem.Отчетность</subsystems>
+  <subsystems>Subsystem.КадровыйУчет</subsystems>
+  <subsystems>Subsystem.Сделки</subsystems>
+  <subsystems>Subsystem.Служебное</subsystems>
+  <styleItems>StyleItem.ШрифтПомеченныхНаУдаление</styleItems>
+  <commonPictures>CommonPicture.Контрагенты</commonPictures>
+  <commonPictures>CommonPicture.Сотрудники</commonPictures>
+  <sessionParameters>SessionParameter.ВремяНачалаСеанса</sessionParameters>
+  <sessionParameters>SessionParameter.СотрудникТекущегоПользователя</sessionParameters>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ДобавлениеИзменениеСотрудников</roles>
+  <roles>Role.ДобавлениеИзменениеКонтрагентов</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <commonModules>CommonModule.КонтекстВыполненияКлиентСервер</commonModules>
+  <commonModules>CommonModule.СеансыВызовСервера</commonModules>
+  <commonModules>CommonModule.СотрудникиСервер</commonModules>
+  <commonModules>CommonModule.СотрудникиВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСИНН</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыСервер</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
+  <commonModules>CommonModule.РаботаСФормамиКлиент</commonModules>
+  <functionalOptions>FunctionalOption.ВестиРасчетЗарплаты</functionalOptions>
+  <functionalOptions>FunctionalOption.ДлительностьСеанса</functionalOptions>
+  <definedTypes>DefinedType.Сумма</definedTypes>
+  <commonCommands>CommonCommand.Печать</commonCommands>
+  <commonCommands>CommonCommand.ПечатьНаПринтере</commonCommands>
+  <commonCommands>CommonCommand.ПечатьСПредпросмотром</commonCommands>
+  <commonCommands>CommonCommand.УволенныеСотрудники</commonCommands>
+  <commonCommands>CommonCommand.РаботающиеСотрудники</commonCommands>
+  <commandGroups>CommandGroup.Печать</commandGroups>
+  <commandGroups>CommandGroup.БыстрыйДоступ</commandGroups>
+  <constants>Constant.ВестиРасчетЗарплаты</constants>
+  <constants>Constant.ДлительностьСеанса</constants>
+  <constants>Constant.ВерсияКонфигурации</constants>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.КонтактныеЛица</catalogs>
+  <catalogs>Catalog.Упаковки</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
+  <documents>Document.ЗаказПоставщику</documents>
+  <documents>Document.ЗаказПокупателя</documents>
+  <documents>Document.События</documents>
+  <documents>Document.ПоступлениеТоваровИУслуг</documents>
+  <documents>Document.РеализацияТоваровИУслуг</documents>
+  <documents>Document.УстановкаЦен</documents>
+  <sequences>Sequence.СкладскиеДокументы</sequences>
+  <documentJournals>DocumentJournal.ДвижениеТоваров</documentJournals>
+  <enums>Enum.ЮридическоеФизическоеЛицо</enums>
+  <enums>Enum.ПолМужскойЖенский</enums>
+  <enums>Enum.ТипНоменклатуры</enums>
+  <enums>Enum.ТипыСобытий</enums>
+  <enums>Enum.ТипыКонтактнойИнформации</enums>
+  <reports>Report.ОстаткиПоСкладам</reports>
+  <reports>Report.ОтчетПоПродажам</reports>
+  <reports>Report.ИсторияЦенПродажи</reports>
+  <reports>Report.АктуальныеЦеныПоставщиков</reports>
+  <reports>Report.ОстаткиТоваров</reports>
+  <dataProcessors>DataProcessor.ПроверкаДлительностиСеанса</dataProcessors>
+  <dataProcessors>DataProcessor.УстановкаЦенПродажи</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаПрайслистаКонтрагента</dataProcessors>
+  <dataProcessors>DataProcessor.РаботаСBase64</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаПрайсИзФайлаXlsx</dataProcessors>
+  <informationRegisters>InformationRegister.ЦеныПродажиНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПоставщиков</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.Товары</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
+</mdclass:Configuration>

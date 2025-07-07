@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8950d434-e493-4f89-a36c-478bc684e614">
+  <producedTypes>
+    <objectType typeId="28532e5e-873c-42a0-90b0-54f7644e6325" valueTypeId="78187a0a-4556-4426-804a-2d6b9b368ffa"/>
+    <refType typeId="cb19bc24-d267-4f23-9a64-8f06b538da10" valueTypeId="fe1b53c4-e651-469f-bddc-b865b285bc94"/>
+    <selectionType typeId="be826d6f-3c9d-4aef-95d3-e40728bbc1fd" valueTypeId="02c63bf0-7c8e-4ace-88c5-81ba83dc3fdf"/>
+    <listType typeId="e256959f-e239-49f2-ae5b-93c47548f699" valueTypeId="8b4c9c95-fa2d-4642-b42c-7ad033921053"/>
+    <managerType typeId="48cdef84-4093-4106-aeb3-f657197db3e1" valueTypeId="8260e4f6-b275-4263-b8ed-a601fc0f108e"/>
+  </producedTypes>
+  <name>ЗаказПоставщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заказ поставщику</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗаказПоставщику.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Заказ поставщику</value>
+  </objectPresentation>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Заказ поставщику</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Заказы поставщикам</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Заказы поставщикам</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗаказПоставщику.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗаказПоставщику.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="15ad9baf-5295-4c54-99a6-e9f9daf712b3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="63d665f4-2f85-46cc-a1d1-5ff9678efa92">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="04213fea-759b-485c-b0a0-afcdc11dc2f8">
+    <name>ОтправитьЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправить заказ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ЗаказПоставщику</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Document>

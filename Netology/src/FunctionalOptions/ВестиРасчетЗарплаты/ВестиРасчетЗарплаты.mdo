@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c201ac8a-96a0-4e0a-8e34-5842c890d031">
+  <name>ВестиРасчетЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести расчет зарплаты</value>
+  </synonym>
+  <location>Constant.ВестиРасчетЗарплаты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Сотрудники.Attribute.Оклад</content>
+  <content>Catalog.Сотрудники.Attribute.СтавкаЧаса</content>
+</mdclass:FunctionalOption>

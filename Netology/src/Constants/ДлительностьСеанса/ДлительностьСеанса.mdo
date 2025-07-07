@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fe5f9a56-e09f-41b5-b9a4-24e16ea61852">
+  <producedTypes>
+    <managerType typeId="d6fa2334-5a11-4c50-b74a-08b36d084cf2" valueTypeId="f727402d-5432-414e-8159-82a1cded2ee6"/>
+    <valueManagerType typeId="b03ca32c-8283-4ec7-beda-fcda0cb0ac38" valueTypeId="98a541ae-4aec-4a4a-98f2-054b8c209fa4"/>
+    <valueKeyType typeId="f08bb012-9d7d-48e5-a780-d60ac71a036e" valueTypeId="41c76612-e5a9-4153-af10-53a60eb1693e"/>
+  </producedTypes>
+  <name>ДлительностьСеанса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительность сеанса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cd6f20f0-0f86-4c0b-94d8-f912364813c4">
+  <producedTypes>
+    <objectType typeId="5a5aa2e9-dda3-4d0d-a92f-55032c33aec8" valueTypeId="cf85d1a1-e428-4fcf-80ee-da0e0b0cb58e"/>
+    <managerType typeId="1fc2630d-d892-4638-a338-eed718ff5c88" valueTypeId="782f4a41-fc80-4fc3-bffd-7c90a3a65c47"/>
+  </producedTypes>
+  <name>ЗагрузкаПрайсИзФайлаXlsx</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка прайс из файла xlsx</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаПрайсИзФайлаXlsx.Form.Форма</defaultForm>
+  <forms uuid="e34b904b-89f6-4e5b-9597-86a1f212b124">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

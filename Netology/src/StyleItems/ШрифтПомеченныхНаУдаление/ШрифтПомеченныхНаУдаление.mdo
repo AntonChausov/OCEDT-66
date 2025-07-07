@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82a5c39d-63b3-44ee-ab22-7982228dc0e8">
+  <name>ШрифтПомеченныхНаУдаление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шрифт помеченных на удаление</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontRef">
+      <font>Style.NormalTextFont</font>
+      <bold>false</bold>
+      <italic>false</italic>
+      <underline>false</underline>
+      <strikeout>true</strikeout>
+    </value>
+  </value>
+</mdclass:StyleItem>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c02cdc0-88f6-457a-9367-d89624d5c151">
+  <producedTypes>
+    <selectionType typeId="a2fb09d2-b141-43b8-a0e1-e442d21a337d" valueTypeId="41b403c6-835a-4056-8aa9-6776437d2646"/>
+    <listType typeId="56315b87-9bc8-48cd-95cd-4fc6d70fd302" valueTypeId="ef71f29d-8612-48aa-9442-6a86200cb8c3"/>
+    <managerType typeId="02c4bd19-077c-494a-b936-7fd7183aafa9" valueTypeId="ec605c84-86e5-4c0b-90e0-7a3fe504268f"/>
+    <recordSetType typeId="156f5813-72e3-4665-acfb-bd398cb593ed" valueTypeId="ee0bd934-8620-4c9d-b1fa-0799b481debb"/>
+    <recordKeyType typeId="14bda8db-661c-4182-ac75-25b90bd9ea9e" valueTypeId="2a98e686-c57d-472a-8c6a-f75ab6766532"/>
+    <recordType typeId="25de6de8-db47-4822-bcf4-805c6fbda9f8" valueTypeId="aab3ae37-67c3-49a0-9481-9eaabc456184"/>
+    <recordManagerType typeId="632ef4e8-e5fa-41a4-895c-ef49fdf36978" valueTypeId="c186932a-b5fc-4fc2-b2af-f8eb58cbf053"/>
+  </producedTypes>
+  <name>ЦеныПоставщиков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цены поставщиков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Цена поставщика</value>
+  </recordPresentation>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Цена поставщика</value>
+  </extendedRecordPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Цены поставщиков</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Цены поставщиков</value>
+  </extendedListPresentation>
+  <resources uuid="afabe770-9511-4fe7-a2d3-549f03147d4e">
+    <name>Цена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Сумма</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="22da6dfa-bc04-4073-812f-c46fe97e787c">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="438c77d4-7150-4754-b936-2e44942e688f">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="83f235bc-6807-4da6-8c77-57ea4c65b2f7">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fdbe3a7-4024-45ee-9936-3daa780c34d3">
+  <name>ДлительностьСеанса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Длительность сеанса</value>
+  </synonym>
+  <location>Constant.ДлительностьСеанса</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>
